@@ -38,7 +38,7 @@ In each implementation, I created a Priority Queue called "frontier", which kept
 
 After warming up with those fundamental implementations, I was tasked with improving performance by searching for a route through my demo maps from two directions at once.
 
-<p align="center"><img width="182" height="182" src=images/isolation-basic.png></img></p>
+<p align="center"><img width="400" height="300" src=images/romania.png></img></p>
 <div align="center"><b>Fig 1. Map of Romania Used</b></div>
 
 To implement this, I created **two** Priority Queues, called "frontier_start" and "frontier_goal". I also kept track of nodes which had been considered explored from each end of my search.
